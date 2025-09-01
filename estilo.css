@@ -97,7 +97,33 @@ nav ul {
   border: solid 2px #000000;
   padding: 6px 12px 6px 12px ;
 }
+.imgAcab{
+  width: 60px;
+  height: 44px;
+}
 
+.linTH{
+  color: #EEEE00;
+  background-color: #666666;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.colTH{
+  color: #000000;
+  background-color: #AAAAAA;
+  text-align: left;
+}
+.divCompras{
+  width: 550px;
+  color: #000000;
+  background-color: #FFFFCC;
+  padding: 6px 6px 15px 6px;
+  border: solid 2px #000000;
+  font-size: 12px;
+  margin: 20px auto;
+
+}
 /*
 listaMat Largura de 340px, cor de texto #202020, cor de fundo #EEEEBB, padding
 (espaçamento entre o interior e a borda) variável (10px 10px 10px 30px) e

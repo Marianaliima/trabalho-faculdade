@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="estilo.css">
+        <title>Apresentação</title>
+    </head>
+    
+    <body>
+        <header>
+            <img src="LogoChiqueEletricoTopo.png" alt="Chique Elétrico" class="imgLogo" />
+            <address class="ender">
+                Rua Chique Chique, 123 <br />
+                Tel: (21) 91234-4321 <br />
+                <a href="mailto:contato@chiqueletrico.com.br">contato@chiqueletrico.com.br</a>
+            </address>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="apresentacao.html">Apresentação</li>
+                    <li><a href="materias.html">Materiais</a></li>
+                    <li><a href="#">Acabamentos</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                </ul>
+            </nav>
+            <section>
+                <div class="divCompras">
+                <form>
+                    
+                    <fieldset>
+                        <legend>Identificação</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="email">
+                        <label for="address">Endereço:</label>
+                        <textarea class="listaCompras"></textarea>
+                        <label for="telephone">Telefone:</label>
+                        <input type="telphone" id="telphone" name="telphone">
+                        <label for="celphone">Celular:</label>
+                        <input type="celphone" id="celphone" name="celphone">
+                        <fieldset>
+                            <legend>Genero</legend>
+                            
+                            <input type="radio" id="mas" name="mas">
+                            <label for="mas">Mas</label>
+                            
+                            <input type="radio" id="fem" name="fem">
+                            <label for="fem">Fem</label>
+                            
+                            <input type="radio" id="other" name="other">
+                            <label for="other">Outro</label>
+                            
+                            
+                            
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Nascimento</legend>
+                            
+                            <input type="number" id="birthday" name="date"> / <input type="number" id="birthmonth" name="date"> / <input
+                            type="number" id="birthyear" name="date">
+                        </fieldset>
+            </fieldset>
+            <fieldset>
+                
+                <legend>Seleção de Produtos e Pagamentos</legend>
+                <select name="" id="" class="colSelProd
+                ">
+                    <option>----</option>
+                    <optgroup label="Acabamento Stylus">
+                        
+                        <option value="placa4x4">Placa 4x4</option>
+
+                        <option value="tomada">Tomada</option>
+                        <option value="Interruptor">Interruptor</option>
+                        
+                        
+                    </optgroup>
+                    <optgroup label="Acabamento Slim">
+                        <option value="placa4x2">Placa 4x2</option>
+                        
+                        <option value="modulo tomada">Módulo Tomada</option>
+                        <option value="modulo Interruptor">Módulo Interruptor</option>
+                        
+                        
+                    </optgroup>
+                    
+                    <optgroup label="Cabo Flexível">
+                        
+                        <option value="sil preto">Sil Preto 2,5mm (100m)</option>
+                        <option value="cobrecom azul">Cobrecom Azul 2,5mm (100m)</option>
+                        <option value="sil verde">Sil verde 2,5mm (50m)</option>
+                        
+                    </optgroup>
+                    
+                    <optgroup label="Terminais Ilhós">
+                        
+                        <option value="terminais">2,5mm (200 peças)</option>
+                        <option value="terminais">4mm (100 peças)</option>
+                        
+                    </optgroup>
+                    <optgroup label="Conduíte">
+                        
+                        <option value="plastilit">Plastilit 1/2" 25m</option>
+                        <option value="plastilit4">Plastilit 3/4" 50m</option>
+                    </optgroup>
+                </select>
+                <input type="button" value="Comprar">
+                <textarea></textarea>
+                <label for="value">Valor R$</label>
+                <input type="text" id="value" name="value">
+                
+                <fieldset>
+                    <legend>Cartão</legend>
+                    <label for="bandeira">Bandeira:</label>
+                    <input type="radio" id="visa" name="visa">
+                    <label for="visa">Visa</label>
+                    
+                    <input type="radio" id="master" name="master">
+                    <label for="master">Master</label>
+                    
+                    <input type="radio" id="elo" name="elo">
+                    <label for="elo">Elo</label>
+                    
+                    <label for="validade">Validade:</label>
+                    <input type="number" id="cardMonth" name="cardMonth"> / <input type="number" id="cardYear" name="cardYear"> 
+                    <label for="value">Número:</label>
+                    <input type="text" id="cardNumber" name="cardNumber">
+                    
+                    
+                </fieldset>
+                
+            </fieldset>
+            <input type="button" value="Enviar">
+            <input type="button" value="Limpar">
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>
