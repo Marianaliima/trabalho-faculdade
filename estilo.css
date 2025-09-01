@@ -1,0 +1,108 @@
+body {
+  background-color: #2277dd;
+  color: #ffee44;
+  font-size: 16px;
+  font-family: 'Stoke Regular' 
+}
+header {
+  display: block;
+  margin-bottom: 1px;
+}
+nav {
+  display: block;
+  width: 20%;
+  float: left;
+}
+section {
+  display: block;
+  width: 70%;
+  float: right;
+}
+a {
+  color: #ffee55;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffee33;
+}
+ol,
+ul {
+  line-height: 200%;
+}
+
+.ender {
+  float: right;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Karla, Verdana, Ubuntu;
+  text-align: right;
+}
+.imgLogo {
+  border-bottom: solid 3px #ffffff;
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+}
+.apres {
+  text-align: center;
+  font-size: 16px;
+}
+
+nav ul {
+  color: #ffee44;
+  line-height: 230%;
+  margin-top: 40px;
+  list-style-type: square;
+}
+.titulo {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.listaMat {
+  width: 340px;
+  color: #202020;
+  background-color: #eeeebb;
+  padding: 10px 10px 10px 30px;
+  border: solid 3px #202020;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: square;
+  font-size: 12px;
+}
+
+.listaMat ol {
+  list-style-type: lower-alpha;
+  color: #202020;
+}
+
+.preco {
+  color: #cc0000;
+}
+.tabAcab{
+  border-collapse: collapse;
+  margin-top: 6px;
+  font-size: 15px;
+  background-color: #FFFFCC;
+  color: #000000;
+  font-family: Karla, Verdana, Ubuntu;
+}
+
+.tabAcab th {
+  border: solid 2px #000000;
+  padding: 6px 12px 6px 12px ;
+}
+.tabAcab td {
+  border: solid 2px #000000;
+  padding: 6px 12px 6px 12px ;
+}
+
+/*
+listaMat Largura de 340px, cor de texto #202020, cor de fundo #EEEEBB, padding
+(espaçamento entre o interior e a borda) variável (10px 10px 10px 30px) e
+borda de 3px, sólida e na cor #202020. Margem superior de 0px e inferior de
+10px. Lista centralizada na página (DICA: margem esquerda e direita com
+valor auto) e marca de início de item como quadrado.
+preco Cor de texto #CC0000.
+*/
