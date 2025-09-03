@@ -2,7 +2,7 @@ body {
   background-color: #2277dd;
   color: #ffee44;
   font-size: 16px;
-  font-family: "Stoke Regular";
+  font-family: 'Stoke', 'Lucida Bright', 'Liberation';;
 }
 header {
   display: block;
